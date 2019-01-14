@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/commodity-service/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service-config/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-auth/pom.xml" />
       </list>
     </option>
   </component>

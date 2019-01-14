@@ -3,9 +3,13 @@ server:
 spring:
   application:
     name: erueka-server
+#  security:
+#    user:
+#      name: user
+#      password: password123
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://127.0.0.1:${server.port}/eureka
+      defaultZone: http://user:password123@localhost:${server.port}/eureka

@@ -7,15 +7,15 @@ management:
   endpoints:
     web:
       exposure:
-        # ¿ª·ÅËùÓĞ¼à¿Ø¶Ëµã
+        # å¼€æ”¾æ‰€æœ‰ç›‘æ§ç«¯ç‚¹
         include: '*'
   endpoint:
     health:
-      # ÊÇ·ñÕ¹Ê¾½¡¿µ¼ì²éÏêÇé
+      # æ˜¯å¦å±•ç¤ºå¥åº·æ£€æŸ¥è¯¦æƒ…
       show-details: always
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8010/eureka/
+      defaultZone: http://localhost:8010/eureka/
   instance:
     prefer-ip-address: true

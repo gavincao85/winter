@@ -8,12 +8,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="commodity-service" />
         <module name="eureka-server" />
+        <module name="eureka-server-auth" />
+        <module name="order-service" />
+        <module name="order-service-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="commodity-service" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-auth" target="1.8" />
+      <module name="eureka-server-authenticating" target="1.8" />
       <module name="eurekaServer" target="1.8" />
+      <module name="order-service" target="1.8" />
+      <module name="order-service-config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

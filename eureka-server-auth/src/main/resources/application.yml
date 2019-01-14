@@ -1,0 +1,15 @@
+server:
+  port: 8110
+spring:
+  application:
+    name: erueka-server
+  security:
+    user:
+      name: user
+      password: password123
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:password123@localhost:${server.port}/eureka

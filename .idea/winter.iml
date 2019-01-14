@@ -4,6 +4,13 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/eureka-server-authenticating/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/eureka-server-authenticating/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/order-service-config/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/order-service-config/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/eureka-server-auth/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/eureka-server-auth/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/eureka-server-authenticating/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

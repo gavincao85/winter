@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/commodity-service/commodity-service.iml" filepath="$PROJECT_DIR$/commodity-service/commodity-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-auth/eureka-server-auth.iml" filepath="$PROJECT_DIR$/eureka-server-auth/eureka-server-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-auth/eureka-server-auth.iml" filepath="$PROJECT_DIR$/eureka-server-auth/eureka-server-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service-config/order-service-config.iml" filepath="$PROJECT_DIR$/order-service-config/order-service-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/winter.iml" filepath="$PROJECT_DIR$/.idea/winter.iml" />
     </modules>
   </component>
